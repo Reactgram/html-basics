@@ -1,0 +1,87 @@
+<!-- // ordered list and unordered list
+
+// 1. Apple 
+// 2. Banana
+// 3. Orange
+
+// unordered list:
+
+// . Apple
+// . Banana
+// . Orange -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        ol{
+            list-style-type: decimal;
+            /* decimal */
+            /* decimal-leading-zero */
+            /* lower-roman */
+            /* upper-roman */
+            /* lower-alpha */
+            /* upper-alpha */
+            /* lower-greek */
+        }
+
+        ul{
+            list-style-type: disc;
+            /* disc */
+            /* circle */
+            /* square */
+            /* none */
+            /* discolosure-open */
+            /* disclosure-closed */
+        }
+    </style>
+</head>
+<body>
+       <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Orange</li>
+            <li>Mango</li>
+       </ol>
+
+       <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Orange</li>
+            <li>Mango</li>
+      </ul>
+
+
+      <dl>
+          <dt>Vegetables</dt>
+            <dd>- Onion</dd>
+            <dd>- Tomato</dd>
+            <dd>- Brinjal</dd>
+         <dt>Fruits</dt>
+            <dd>- Apple</dd>
+            <dd>- Banana</dd>
+            <dd>- Orange</dd>
+      </dl>
+
+
+      <!-- nested list -->
+       <ul>
+           <li>Vegetables</li>
+           <ul>
+                <li>Onion</li>
+                <li>Tomato</li>
+                <li>Brinjal</li>
+           </ul>
+           <li>Fruits</li>
+              <ul>
+                 <li>Apple</li>
+                 <li>Banana</li>
+                 <li>Orange</li>
+                </ul>
+       </ul>
+</body>
+</html>
